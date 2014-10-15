@@ -8,6 +8,6 @@ import java.util.Map;
 public interface Accumulator<T>
 {
 	public void put(String key, T value);
-	public Map<String, T> getAccumulated();
-	public void remove(String key);
+    public Map<String, T> getAccumulated();
+    public void remove(String key);
 }
